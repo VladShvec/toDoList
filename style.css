@@ -1,0 +1,99 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #ffffff;
+    overflow-x: hidden;
+        min-height: 100vh;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    list-style-type: none;
+    margin-top: 20px;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 0 5px;
+    margin-bottom: 20px;
+}
+.label_p{
+    font-size: 27px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(207 211 205);
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 0px;
+}
+
+.wrapper{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 100vh;
+    padding-bottom: 30px;
+    min-width: 100vh;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 0.6px;
+    padding: 60px 20px;
+    color:  rgb(182 178 247);
+}
+.task-wrapper{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 40px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    width: 70%;
+}
+button{
+    
+        padding: 6px 10px;
+    min-width: 100px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(10 49 111);
+}
+button:hover{
+    cursor: pointer;
+    background-color: ;
+}
+#taskblock{
+        width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+#block{
+
+    display: block;
+    text-align: left;
+    font-size: 26px;
+    font-family: 'Bebas Neue', cursive;
+    color: #d7bfd7;
+}
