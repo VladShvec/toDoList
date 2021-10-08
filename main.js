@@ -139,7 +139,7 @@ const Form = () => {
         todolist.push(toDo);
         
         render();
-    })
+    });
     
     return div;
 }
@@ -149,6 +149,9 @@ const App = () => {
     const toDoList = TodoList();
     let mainBlock = document.createElement('div');
     mainBlock.setAttribute('class' ,'_container' );
+    let head = document.createElement('h1');
+    head.appendChild(document.createTextNode('To do list'));
+    mainBlock.appendChild(head);
     mainBlock.appendChild(form);
     mainBlock.appendChild(toDoList);
     return mainBlock;
