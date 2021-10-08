@@ -89,20 +89,31 @@ button:hover{
     margin: 0 auto;
     text-align: center;
 }
-#block{
+li{
 
-    display: block;
+    
     text-align: left;
     font-size: 26px;
     font-family: 'Bebas Neue', cursive;
     color: #d7bfd7;
+    display: flex;
+    flex: 0 1 40%;
+    margin: 0 20px;
 }
 ._container{
     max-width: 1200px;
     margin: 0 auto;
+/*    display: flex;*/
+    flex-direction: column;
+    align-items: center;
+}
+._container > div{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#inputId{
+    margin-left: 55px;
 }
 @media screen and (max-width:480px){
     ._container{
